@@ -4,5 +4,9 @@ export default {
   theme: {
     extend: {}
   },
+  corePlugins: {
+    // To prevent tailwind styles from conflicting with Naive UI styles
+    preflight: false
+  },
   plugins: []
 }
